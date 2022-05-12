@@ -1,5 +1,4 @@
-const notaFinal = 
-
+const notaFinal = [];
 
 
 if (notaFinal >= 7 && notaFinal <=10){
