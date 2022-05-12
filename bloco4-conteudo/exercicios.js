@@ -21,15 +21,15 @@
 
 
 //3-Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
-//const num1 = 1000;
-//const num2 = 600;
-//const num3 = 554;
+//const num1 = 500;
+//const num2 = 500;
+//const num3 = 500;
 
 
 //if (num1 > num2 && num1 > num3){
 //    console.log(num1);
 //} else if (num2 > num1 && num2 > num3){
-   // console.log(num2);
+//    console.log(num2);
 //} else {
 //    console.log(num3);
 //}
@@ -55,15 +55,43 @@
 //Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
 //Um ângulo será considerado inválido se não tiver um valor positivo.
 
-const angulo1 = 130;
-const angulo2 = 30;
-const angulo3 = -10;
-const somaDosAngulos = 180;
+//const angulo1 = 130;
+//const angulo2 = 30;
+//const angulo3 = -10;
+//const somaDosAngulos = 180;
 
-if (angulo1 , angulo2 , angulo3 < 0){
-   console.log("ERRO")
-} else if (angulo1 + angulo2 + angulo3 == somaDosAngulos){ 
-   console.log("True")
+//if (angulo1 , angulo2 , angulo3 < 0){
+//   console.log("ERRO")
+//} else if (angulo1 + angulo2 + angulo3 == somaDosAngulos){ 
+  // console.log("True")
+//} else {
+   //console.log("False")
+//}
+
+
+//Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+//Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+//Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
+//Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+//Exemplo: bishop (bispo) -> diagonals (diagonais)
+
+const peca = ["cavalo"];
+
+ if (peca == "peao"){
+   console.log("Anda pra frente")
+} else if (peca == "bispo"){
+   console.log("Anda na dagonal")
+} else if (peca == "rei"){
+   console.log("Anda pra todos os lados um quadradinho")
+} else if (peca == "rainha"){
+   console.log("Anda para qualquer lado o tanto de quadradinhos que precisar")
+} else if (peca == "cavalo"){
+   console.log("Anda em L")
+} else if (peca == "torre"){
+   console.log("Anda horizontalmente e verticalmente.")
 } else {
-   console.log("False")
+   console.log ("Peca invalida.")
 }
+
+
+
