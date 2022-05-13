@@ -69,28 +69,49 @@
 //}
 
 
-//Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+//6-Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
 //Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
 //Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case).
 //Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 //Exemplo: bishop (bispo) -> diagonals (diagonais)
 
-const peca = ["cavalo"];
+//const peca = ["cavalo"];
 
- if (peca == "peao"){
-   console.log("Anda pra frente")
-} else if (peca == "bispo"){
-   console.log("Anda na dagonal")
-} else if (peca == "rei"){
-   console.log("Anda pra todos os lados um quadradinho")
-} else if (peca == "rainha"){
-   console.log("Anda para qualquer lado o tanto de quadradinhos que precisar")
-} else if (peca == "cavalo"){
-   console.log("Anda em L")
-} else if (peca == "torre"){
-   console.log("Anda horizontalmente e verticalmente.")
+ //if (peca == "peao"){
+   //console.log("Anda pra frente")
+//} else if (peca == "bispo"){
+//   console.log("Anda na dagonal")
+//} else if (peca == "rei"){
+//   console.log("Anda pra todos os lados um quadradinho")
+//} else if (peca == "rainha"){
+//   console.log("Anda para qualquer lado o tanto de quadradinhos que precisar")
+//} else if (peca == "cavalo"){
+//   console.log("Anda em L")
+//} else if (peca == "torre"){
+//   console.log("Anda horizontalmente e verticalmente.")
+//} else {
+//   console.log ("Peca invalida.")
+//}
+
+//7-
+
+const numero = 50;
+const resultado = "Erro";
+
+if (numero *90/100 >= 90 && numero < 0 && numero > 100){
+   console.log("A")
+} else if (numero *80/100 >= 80 && numero < 0 && numero > 100){
+   console.log("B")
+} else if (numero *70/100 >= 70 && numero < 0 && numero > 100){
+   console.log("C")
+} else if (numero *60/100 >=60 && numero < 0 && numero > 100){
+   console.log("D")
+} else if (numero *50/100 >=50 && numero < 0 && numero > 100){
+   console.log ("E")
+} else if (numero *50/100 <50 && numero < 0 && numero > 100){
+   console.log ("F")
 } else {
-   console.log ("Peca invalida.")
+   console.log (resultado)
 }
 
 
