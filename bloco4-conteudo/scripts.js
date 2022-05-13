@@ -61,11 +61,11 @@
 //    console.log(index)
 //}
 
-//let arrOfNumbers = [10, 20 , 30];
-//for (let index of arrOfNumbers) {
-//    index ++;
-//    console.log(index);
-//}
+let arrOfNumbers = [10, 20 , 30];
+for (let index of arrOfNumbers) {
+    index += 1;
+    console.log(index);
+}
 
 //exercicio 1:
 //let names = ["Joao", "Maria", "Antonio", "Margarida"];
