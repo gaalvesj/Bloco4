@@ -95,24 +95,29 @@
 
 //7-
 
-const numero = 50;
-const resultado = "Erro";
+//const numero = 50;
+//const resultado = "Erro";
 
-if (numero *90/100 >= 90 && numero < 0 && numero > 100){
-   console.log("A")
-} else if (numero *80/100 >= 80 && numero < 0 && numero > 100){
-   console.log("B")
-} else if (numero *70/100 >= 70 && numero < 0 && numero > 100){
-   console.log("C")
-} else if (numero *60/100 >=60 && numero < 0 && numero > 100){
-   console.log("D")
-} else if (numero *50/100 >=50 && numero < 0 && numero > 100){
-   console.log ("E")
-} else if (numero *50/100 <50 && numero < 0 && numero > 100){
-   console.log ("F")
-} else {
-   console.log (resultado)
+//if (numero *90/100 >= 90 && numero < 0 && numero > 100){
+//   console.log("A")
+//} else if (numero *80/100 >= 80 && numero < 0 && numero > 100){
+//   console.log("B")
+//} else if (numero *70/100 >= 70 && numero < 0 && numero > 100){
+//   console.log("C")
+//} else if (numero *60/100 >=60 && numero < 0 && numero > 100){
+//   console.log("D")
+//} else if (numero *50/100 >=50 && numero < 0 && numero > 100){
+//   console.log ("E")
+//} else if (numero *50/100 <50 && numero < 0 && numero > 100){
+//   console.log ("F")
+//} else {
+//   console.log (resultado)
+//}
+
+//------Exercicio de Array e loop for--------
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 0; index < numbers.length ; index += 1 ){
+   console.log(numbers[index]);
 }
-
-
 
