@@ -25,15 +25,25 @@
 
 
 
-let menu = ["Home", "Servicos" , "Portifolio" , "Links"];
-menu.push ("Contato")
-
-console.log(menu);
-
-
+//let menu = ["Home", "Servicos" , "Portifolio" , "Links"];
+//exercicio 3-//menu.push ("Contato");
+//console.log(menu);
 
 //Exercicio 2-//let indexOfPortfolio = menu.indexOf("Portifolio")
 //console.log(indexOfPortfolio)
 
 //Exercicio 1-//let menuServices =(menu[1]);
 //console.log(menuServices);
+
+
+let cars = ["saab", "Volvo" , "BMW"]
+for (let index = 0; index < cars.length; index ++){
+    console.log(cars[index])
+}
+
+
+
+//let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+//for (let index = 0; index < groceryList.length; index++){
+//    console.log(groceryList[index])
+//}
