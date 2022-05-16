@@ -3,8 +3,8 @@ let linhaRainha = 0;
 let colunaRainha = 0;
 
 //posicao do bispo teste
-let linhaBispo = 3;
-let colunaBispo = 3;
+let linhaBispo = 1;
+let colunaBispo = 1;
 
 //identifica se o ataque foi bem sucessido ou nao
 let podeAtacar = false;
