@@ -19,6 +19,10 @@ for (let passos = 1; passos <= 7 ; passos +=1 ){
     let linhaRainhaClone = linhaRainha + passos;
     let colunaRainhaClone = colunaRainha + passos;
     console.log(linhaRainhaClone, colunaRainhaClone)
+   if(linhaRainhaClone > 7 || colunaRainhaClone > 7){
+       break;
+   }
+
 
     if(linhaRainhaClone === linhaBispo && colunaRainhaClone === colunaBispo) {
         podeAtacar = true;
@@ -27,4 +31,5 @@ for (let passos = 1; passos <= 7 ; passos +=1 ){
     }
 
 }
+
 console.log(podeAtacar);
