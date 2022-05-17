@@ -61,11 +61,11 @@
 //    console.log(index)
 //}
 
-let arrOfNumbers = [10, 20 , 30];
-for (let index of arrOfNumbers) {
-    index += 1;
-    console.log(index);
-}
+//let arrOfNumbers = [10, 20 , 30];
+//for (let index of arrOfNumbers) {
+//    index += 1;
+//    console.log(index);
+//}
 
 //exercicio 1:
 //let names = ["Joao", "Maria", "Antonio", "Margarida"];
@@ -103,3 +103,19 @@ for (let index of arrOfNumbers) {
 //console.log("Jogo da galera: ",chatNumbers);
 //console.log("Jogo da Mega: ",megaSenaNumbers);
 //console.log('Numero de Acertos: ',numberOfHits);
+
+ let singer = {
+    name: "Milton",
+    lastName: "Nascimento",
+    nickName: 'Bituca',
+    age: 77,
+    bestAlbuns: ('Travessia', 'Clube de esquina', 'Minas'),
+
+};
+
+console.log('O cantor '+ singer.name + ' ' + singer.lastName + ' possui ' + singer.age + " anos.");
+
+console.log('O cantor '+ singer['name'] + ' ' + singer['lastName'] + ' possui ' + singer['age'] + " anos.");
+
+singer['fullName'] = singer.name + " " + singer.lastName;
+ 
