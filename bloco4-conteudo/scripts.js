@@ -74,48 +74,39 @@
 //}
 
 
-//----MEGA SENA----
 
-//let chatNumbers = [10 , 23 , 26, 18, 50, 49];
-//let megaSenaNumbers = [10, 23 ,43 ,44 ,51 ,58]
+// let singer = {
+//    name: "Milton",
+//    lastName: "Nascimento",
+//    nickName: 'Bituca',
+//    age: 77,
+//    bestAlbuns: ('Travessia', 'Clube de esquina', 'Minas'),
 
-//console.log("Jogo da galera: ");
-//for (let index = 0; index < chatNumbers.length ; index += 1 ){
-//    console.log (chatNumbers[index]);
-//}
+//};
 
-//console.log("Jogo da Mega Senna: ");
-//for (let index2 = 0; index2 < megaSenaNumbers.length ; index2 += 1 ){
-//    console.log (megaSenaNumbers[index2]);
-//}
+//console.log('O cantor '+ singer.name + ' ' + singer.lastName + ' possui ' + singer.age + " anos.");
 
-//let numberOfHits = 0;
-//for (let index = 0; index < chatNumbers.length ; index += 1 ){
-//       console.log (chatNumbers[index]);
-//       for (let index2 = 0; index2 < megaSenaNumbers.length ; index2 += 1 ){
-//             console.log (megaSenaNumbers[index2]);
-//         if (chatNumbers[index] === megaSenaNumbers[index2]){
-//             numberOfHits += 1; 
-//         }
-    
-//        }                    
-//}
-//console.log("Jogo da galera: ",chatNumbers);
-//console.log("Jogo da Mega: ",megaSenaNumbers);
-//console.log('Numero de Acertos: ',numberOfHits);
+//console.log('O cantor '+ singer['name'] + ' ' + singer['lastName'] + ' possui ' + singer['age'] + " anos.");
 
- let singer = {
-    name: "Milton",
-    lastName: "Nascimento",
-    nickName: 'Bituca',
-    age: 77,
-    bestAlbuns: ('Travessia', 'Clube de esquina', 'Minas'),
-
-};
-
-console.log('O cantor '+ singer.name + ' ' + singer.lastName + ' possui ' + singer.age + " anos.");
-
-console.log('O cantor '+ singer['name'] + ' ' + singer['lastName'] + ' possui ' + singer['age'] + " anos.");
-
-singer['fullName'] = singer.name + " " + singer.lastName;
+//singer['fullName'] = singer.name + " " + singer.lastName;
  
+
+
+//-----------> Obejtos e funções <----------
+//let name = 'Marta';
+//let lastName = 'Silva';
+//let age = 34;
+//let medals = {golden: 2, silver: 3 };
+
+//2- acesse as chaves name, lastName e age e concateneas.
+//console.log('A jogadora ' + name + ' ' + lastName + ' tem ' + age + ' anos de idade.' )
+
+//3- Adicione ao objeto a chave bestInTheWorld e atribua a esta chave um array contendo as datas em que a jogadora Marta foi considerada a melhor do mundo.
+//let bestInTheWorld = [2006, 2007, 2008, 2009, 2010, 2018];
+
+
+//-4 Acesse a chave bestInTheWorld e faça um console.log no seguinte formato: "A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes".
+//console.log('A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes nos seguintes anos: ' + bestInTheWorld);
+
+//-5 Acesse a chave medals e faça um console.log no seguinte formato: "A jogadora possui 2 medalhas de ouro e 3 medalhas de prata".
+//console.log ('A jogadora tem ' + medals.golden + ' medalhas de ouro e ' + medals.silver + ' medalhas de prata' );
